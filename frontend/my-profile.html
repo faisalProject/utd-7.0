@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <nav class="main-navbar">
+        <div class="container">
+            <div class="left-menu">
+                <div class="main-menu-anchor-container">
+                    <a class="main-navbar-menu active" href="dashboard.html">Dashboard</a>
+                </div>
+            </div>
+            <div class="middle-menu">
+                <div class="main-menu-anchor-container">
+                    <a class="main-navbar-menu" href="seminar.html">Seminar</a>
+                </div>
+                <div class="main-menu-anchor-container">
+                    <a class="main-navbar-menu" href="workshop.html">Workshop</a>
+                </div>
+                <div class="main-menu-anchor-container">
+                    <a class="main-navbar-menu" href="competition.html">Lomba</a>
+                </div>
+                <div class="main-menu-anchor-container">
+                    <a class="main-navbar-menu" href="tutorial.html">Tutorial</a>
+                </div>
+            </div>
+            <div class="right-menu">
+                <div class="profile-picture">
+                    <p>Participant Name</p>
+                    <div class="picture">
+                        <img src="assets/images/f2.png" alt="">
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                </div>
+                <ul class="dropdown dropdown-profile">
+                    <li class="list">
+                        <a class="main-navbar-list" href="my-profile.html"><i class="bi bi-person"></i> Profil Saya</a>
+                    </li>
+                    <li class="list">
+                        <a class="main-navbar-list" href="certificate.html"><i class="bi bi-award"></i> Sertifikat</a>
+                    </li>
+                    <li class="list">
+                        <a href="index.html"><i class="bi bi-box-arrow-right"></i> Keluar</a>
+                    </li>
+                </ul>
+                <div class="theme-container">
+                    <i class="bi bi-moon-stars-fill"></i>
+                    <i class="bi bi-brightness-high-fill"></i>
+                </div>
+                <div class="main-hamburger-container">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="my-profile-contents">
+            <div class="container">
+                <div class="the-title-of-each-event">
+                    <a href="dashboard.html">Dashboard</a> <span>/</span> <a href="my-profile.html">Profil Saya</a>
+                </div>
+
+                <div class="my-profile-container">
+                    <div class="left-profile">
+                        <img src="assets/images/f1.png" alt="profile">
+                        <div class="left-desc">
+                            <h5>Participant Name</h5>
+                            <p>082213290762</p>
+                        </div>
+                    </div>
+                    <div class="right-profile">
+                        <div class="email-container">
+                            <p>Alamat Email:</p> <p>participant@gmail.com</p>
+                        </div>
+                        <div class="school-container">
+                            <p>Instansi / Sekolah:</p> <p>Universitas Buana Perjuangan Karawang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-profile-menu">
+                    <p class="submenu active">Event</p>
+                    <p class="submenu">Sertifikat</p>
+                </div>
+
+                <div class="submenu-contents">
+                    <div class="events-contents">
+                        <!-- repetition for events -->
+                        <div class="event-card">
+                            <img src="assets/images/PAMFLET.png" alt="event">
+                            <div class="event-desc">
+                                <div class="event-title-container">
+                                    <p>Seminar Cybersecurity : Security Awareness</p>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing....</p>
+                                </div>
+                                <a href="event-detail.html" class="detail-btn">
+                                    <i class="bi bi-info-circle-fill"></i> Detail Seminar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <img src="assets/images/PAMFLET.png" alt="event">
+                            <div class="event-desc">
+                                <div class="event-title-container">
+                                    <p>Seminar Cybersecurity : Security Awareness</p>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing....</p>
+                                </div>
+                                <a href="event-detail.html" class="detail-btn">
+                                    <i class="bi bi-info-circle-fill"></i> Detail Workshop
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of repetition for events -->
+                    </div>
+                    <div class="certificate-contents">
+                        <div class="certificate-container">
+                            <div class="selected-filter selected-filter-2">
+                                <p class="selected-certificate-list">Seminar</p>
+                                <i class="bi bi-chevron-down"></i>
+                            </div>
+                            <ul class="certificate-list-container">
+                                <li class="certificate-list">
+                                    Seminar
+                                </li>
+                                <li class="certificate-list">
+                                    Workshop
+                                </li>
+                                <li class="certificate-list">
+                                    Lomba
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="events-container">
+                            <div class="profile-seminar-container">
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                            </div>
+                            <div class="profile-workshop-container">
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                            </div>
+                            <div class="profile-competition-container">
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                                <div class="certificate-card">
+                                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="certificate-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="enlarge-certificate">
+            <div class="big-picture">
+                <div class="big-picture-container">
+                    <img src="assets/images/Certificate Muhamad Agus Faisal_page-0001.jpg" alt="" class="big-certificate-image">
+                    <div class="download-container">
+                        <i class="bi bi-download icon-certificate-download"></i>
+                    </div>
+                </div>
+                <div class="close-big-picture-container">
+                    <div class="close-big-picture">
+                        <span class="crose-close-big-picture"></span>
+                        <span class="crose-close-big-picture"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-mobile-navbar">
+            <div class="container">
+                <a href="seminar.html">Seminar</a>
+                <a href="workshop.html">Workshop</a>
+                <a href="competition.html">Lomba</a>
+                <a href="tutorial.html">Tutorial</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="item">
+                <img src="assets/images/himatif.png" alt="">
+                <p>Jln Ronggo Waluyo</p>
+                <p>Sekretariat HIMATIF at</p>
+                <p>Bintang Alam</p>
+                <div class="social-media">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <h5>Hubungi Kami</h5>
+                <p>Phone: (+62) 555 1212</p>
+                <p>Mobile: (+62) 555 0100</p>
+                <p>Fax: (+62) 555 0100</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="btn-to-top">
+        <i class="bi bi-chevron-double-up"></i>
+    </a>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/sweetalert2@11.js"></script>
+    <script src="assets/js/my-profile.js"></script>
+    <script src="assets/js/tutorial.js"></script>
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="page-scroll">Dashboard</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="register-contents">
+            <div class="container">
+                <div class="register">
+                    <div class="top">
+                        <h5>Daftar</h5>
+                    </div>
+                    <form class="register-form" action="">
+                        <input type="text" class="form-control" placeholder="Nama" required>
+                        <input type="tel" class="form-control" placeholder="No. Whatsapp" required>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                            <option value="">Instansi / Sekolah</option>
+                            <option value="1">Umum</option>
+                            <option value="2">Universitas</option>
+                            <option value="3">SMA</option>
+                            <option value="3">SMP</option>
+                        </select>
+                        <input type="email" class="form-control" placeholder="Email" required>
+                        <div class="password-container-register">
+                            <input type="password" class="form-control input-type2" placeholder="Password" required>
+                            <div class="show-password-2">
+                                <i class="bi bi-eye-slash"></i>
+                                <i class="bi bi-eye"></i>
+                            </div>
+                        </div>
+                        <div class="password-container-register">
+                            <input type="password" class="form-control input-type3" placeholder="Password konformasi" required>
+                            <div class="show-password-3">
+                                <i class="bi bi-eye-slash"></i>
+                                <i class="bi bi-eye"></i>
+                            </div>
+                        </div>
+                        <button type="submit" class="create-account-btn">Buat akun</button>
+                        <div class="option-signin">
+                            <p>Sudah mempunyai akun? <a href="#" class="option-href-signin">Masuk</a></p>
+                        </div>
+                        <div class="option-signin">
+                            <p>Sudah mempunyai akun? <a href="signin.html">Masuk</a></p>
+                        </div>
+                    </form>
+                    <div class="footer-register">
+                        <p>Dengan melakukan register, Anda setuju dengan syarat & ketentuan UTD 7.0. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="signin-popup">
+            <div class="signin-contents">
+                <div class="top signin-top">
+                    <h5 class="signin-content-top-heading">Masuk</h5>
+                    <div class="close-container">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <form class="bottom signin-content-bottom">
+                    <input type="text" id="id-email" class="form-control" placeholder="Email">
+                    <div class="password-container">
+                        <input type="password" id="id-pass" class="form-control input-type1" placeholder="Password">
+                        <div class="show-password-1" id="id-show-pass">
+                            <i class="bi bi-eye-slash" id="id-eye-close"></i>
+                            <i class="bi bi-eye" id="id-eye-open"></i>
+                        </div>
+                    </div>
+                    <div class="forgot-password" id="id-forgot-pass">
+                        <a href="#" id="id-go-to-pass">Lupa Password?</a>
+                    </div>
+                    <button type="submit" class="signin-button" id="id-signin-button">Masuk</button>
+                    <div class="option-register" id="id-option-register">
+                        <p id="id-option-text">Belum mempunyai akun? <a id="id-option-href" href="register.html">Daftar</a></p>
+                    </div>
+                </form>
+                <div class="footer-signin" id="id-footer-signin">
+                    <p id="id-footer-signin-text">Dengan melakukan login, Anda setuju dengan syarat & ketentuan UTD 7.0. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="item">
+                <img src="assets/images/himatif.png" alt="">
+                <p>Jln Ronggo Waluyo</p>
+                <p>Sekretariat HIMATIF at</p>
+                <p>Bintang Alam</p>
+                <div class="social-media">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <h5>Hubungi Kami</h5>
+                <p>Phone: (+62) 555 1212</p>
+                <p>Mobile: (+62) 555 0100</p>
+                <p>Fax: (+62) 555 0100</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="btn-to-top">
+        <i class="bi bi-chevron-double-up"></i>
+    </a>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/sweetalert2@11.js"></script>
+    <script src="assets/js/register.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
