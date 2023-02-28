@@ -40,271 +40,6 @@
     font-style: normal;
 }
 
-/* dark mode */
-body.dark,
-body.dark > .main-navbar > .container > .right-menu > .dropdown-profile,
-body.dark > main > .main-mobile-navbar,
-body.dark > main > .modal-register-contents > .modal-contents,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .transfer > select,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .payment > input,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > .filter-container > .tutorial-list-container,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .certificate-contents > .certificate-container > .certificate-list-container,
-body.dark > main > .certificate-page-contents > .container > .certificate-filter-container > .certificate-dropdown-menu {
-    background-color: #1A1A2E;
-}
-
-body.dark > main > .information {
-    background-color: #1b1b30;
-}
-
-body.dark > .main-navbar > .container > .right-menu > .dropdown-profile,
-body.dark > main > .sponsors > .container > .sponsors-container > img,
-body.dark > main > .event-detail-contents > .container > .top > .left,
-body.dark > main > .event-detail-contents > .container > .top > .right,
-body.dark > main > .event-detail-contents > .container > .bottom,
-body.dark > main > .modal-register-contents > .modal-contents,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .payment > input,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .transfer > select,
-body.dark > main > .my-profile-contents > .container > .my-profile-container,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .certificate-contents > .certificate-container > .certificate-list-container,
-body.dark > main > .certificate-page-contents > .container > .certificate-filter-container > .certificate-dropdown-menu,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > .filter-container > .tutorial-list-container,
-body.dark > main > .certificate-page-contents > .container > .certificate-place > .certificate-place-seminar > .certificate-page-card,
-body.dark > main > .certificate-page-contents > .container > .certificate-place > .certificate-place-workshop > .certificate-page-card,
-body.dark > main > .certificate-page-contents > .container > .certificate-place > .certificate-place-competition > .certificate-page-card,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-seminar-container > .certificate-card,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-workshop-container > .certificate-card,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-competition-container > .certificate-card {
-    border: .1px solid rgba(206, 212, 218, .1);
-}
-
-body.dark > main > .event-detail-contents > .container > .top > .left > .title-container,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-title,
-body.dark > main > .event-detail-contents > .container > .bottom > .title,
-body.dark > main > .modal-register-contents > .modal-contents > .top,
-body.dark > main > .modal-register-contents > .modal-contents > .modal-body,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item:not(:last-child) {
-    border-bottom: .1px solid rgba(206, 212, 218, .1);
-}
-
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .prev-btn,
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .next-btn {
-    border: .1px solid rgba(206, 212, 218, .1);
-}
-
-body.dark > .main-navbar {
-    background-color: rgba(26, 26, 46, .5);
-    backdrop-filter: blur(7px);
-    box-shadow: none;
-}
-
-body.dark > nav.active {
-    background-color: rgba(26, 26, 46, 1);
-    backdrop-filter: blur(0);
-}
-
-body.dark > .main-navbar > .container > .left-menu > .main-menu-anchor-container > a,
-body.dark > .main-navbar > .container > .middle-menu > .main-menu-anchor-container > a,
-body.dark > .main-navbar > .container > .right-menu > .profile-picture > p,
-body.dark > .main-navbar > .container > .right-menu > .profile-picture > .picture > .bi-chevron-down,
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list > a,
-body.dark > main > .jumbotron > .container > .desc > h5,
-body.dark > main > .jumbotron > .container > .desc > p,
-body.dark > main > .jumbotron > .container > .desc > a,
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list > a > .bi-person,
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list > a > .bi-award,
-body.dark > main > .sponsors > .container > p,
-body.dark > main > .information > .container > .desc > h5,
-body.dark > main > .information > .container > .desc > .title > .bi-book,
-body.dark > main > .information > .container > .desc > .title > p,
-body.dark > main > .information > .container > .desc > .title > p > span,
-body.dark > main > .information > .container > .desc > .date > .bi-calendar-minus,
-body.dark > main > .information > .container > .desc > .date > p,
-body.dark > main > .information > .container > .desc > .date > p > span,
-body.dark > main > .information > .container > .desc > .event-desc > .bi-megaphone,
-body.dark > main > .information > .container > .desc > .event-desc > p,
-body.dark > main > .information > .container > .desc > .event-desc > p > span,
-body.dark > main > .information > .container > .desc > p,
-body.dark > footer > .container > .item > p,
-body.dark > footer > .container > .item > h5,
-body.dark > footer > .container > .item > .social-media > a > .bi-instagram,
-body.dark > footer > .container > .item > .social-media > a > .bi-youtube,
-body.dark > footer > .container > .item > .social-media > a > .bi-twitter,
-body.dark > footer > .container > .item > .social-media > a > .fa-facebook-f,
-body.dark > main > .main-mobile-navbar > .container > a,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .top > .event-title > .bi-activity,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .top > .event-title > p,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .top > p,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .bottom > .certificate-container > .bi-award,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .bottom > .certificate-container > p,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .bottom  > .information-container > .time-container > .bi-clock,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .bottom  > .information-container > .time-container > p,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .bottom  > .information-container > .participant-container > .bi-people,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc > .bottom  > .information-container > .participant-container > p,
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .prev-btn > .bi-arrow-left-short,
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .next-btn > .bi-arrow-right-short,
-body.dark > main > .seminar-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .seminar-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .seminar-contents > .container > .events-card-container > .event-card > .event-desc > .event-title-container > p,
-body.dark > main > .seminar-contents > .container > .events-card-container > .event-card > .event-desc > .desc > p,
-body.dark > main > .workshop-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .workshop-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .workshop-contents > .container > .events-card-container > .event-card > .event-desc > .event-title-container > p,
-body.dark > main > .workshop-contents > .container > .events-card-container > .event-card > .event-desc > .desc > p,
-body.dark > main > .competition-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .competition-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .competition-contents > .container > .events-card-container > .event-card > .event-desc > .event-title-container > p,
-body.dark > main > .competition-contents > .container > .events-card-container > .event-card > .event-desc > .desc > p,
-body.dark > main > .tutorial-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .tutorial-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > p,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > .filter-container > .selected-filter > p,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > .filter-container > .selected-filter > .bi-chevron-down,
-body.dark > main > .event-detail-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .event-detail-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .event-detail-contents > .container > .top > .left > .title-container > h5,
-body.dark > main > .event-detail-contents > .container > .top > .left > .title-container > p,
-body.dark > main > .event-detail-contents > .container > .top > .left > .desc-container > p,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-title > .bi-info-circle-fill,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-title > p,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > p,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-calendar-minus,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-clock,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-funnel,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-megaphone,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-whatsapp,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-geo-alt-fill,
-body.dark > main > .event-detail-contents > .container > .bottom > .title > .bi-ticket-detailed-fill,
-body.dark > main > .event-detail-contents > .container > .top > .right > .event-desc > .desc > .item > .bi-paperclip,
-body.dark > main > .event-detail-contents > .container > .bottom > .title > p,
-body.dark > main > .modal-register-contents > .modal-contents > .top > h5,
-body.dark > main > .modal-register-contents > .modal-contents > .modal-body > h5,
-body.dark > main > .modal-register-contents > .modal-contents > .modal-body > ul > li,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .transfer > p,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .transfer > select,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .transfer > select > option,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .payment > p,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .payment > input,
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .payment > input::-webkit-file-upload-button,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > .filter-container > .tutorial-list-container > li,
-body.dark > main > .my-profile-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .my-profile-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .my-profile-contents > .container > .my-profile-container > .left-profile > .left-desc h5,
-body.dark > main > .my-profile-contents > .container > .my-profile-container > .left-profile > .left-desc p,
-body.dark > main > .my-profile-contents > .container > .my-profile-container > .right-profile > .email-container > p,
-body.dark > main > .my-profile-contents > .container > .my-profile-container > .right-profile > .school-container > p,
-body.dark > main > .my-profile-contents > .container > .my-profile-menu > p,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .events-contents > .event-card > .event-desc > .event-title-container > p,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .events-contents > .event-card > .event-desc > .desc > p,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .certificate-contents > .certificate-container > .selected-filter > p,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .certificate-contents > .certificate-container > .selected-filter > .bi-chevron-down,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .certificate-contents > .certificate-container > .certificate-list-container > li,
-body.dark > main > .certificate-page-contents > .container > .the-title-of-each-event > a,
-body.dark > main > .certificate-page-contents > .container > .the-title-of-each-event > span,
-body.dark > main > .certificate-page-contents > .container > .certificate-filter-container > .selected-certificate-container > p,
-body.dark > main > .certificate-page-contents > .container > .certificate-filter-container > .selected-certificate-container > .bi-chevron-down,
-body.dark > main > .certificate-page-contents > .container > .certificate-filter-container > .certificate-dropdown-menu > li {
-    color: #f8f8f8;
-}
-
-body.dark > main > .my-profile-contents > .container > .my-profile-container > .left-profile {
-    border-right: .1px solid rgba(206, 212, 218, .1);
-}
-
-body.dark > main > .seminar-contents > .container > .events-card-container > .event-card > .event-desc,
-body.dark > main > .workshop-contents > .container > .events-card-container > .event-card > .event-desc,
-body.dark > main > .competition-contents > .container > .events-card-container > .event-card > .event-desc,
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .events-contents > .event-card > .event-desc {
-    background-color: #1d1d33;
-    border: none;
-    border-radius: 0 0 3px 3px;
-    border: .1px solid rgba(206, 212, 218, .1);
-    overflow: hidden;
-}
-
-body.dark > main > .information > .container > .slideshow-container > .wrapper-container > .card-wrapper > .event-card > .desc {
-    border: .1px solid rgba(206, 212, 218, .2);
-}
-
-body.dark > main > .modal-register-contents > .modal-contents > .register-form > .payment > input::-webkit-file-upload-button {
-    background-color: #1d1d33;
-}
-
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list:last-child > a,
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list > a > .bi-box-arrow-right {
-    color: #f43f5e;
-}
-
-body.dark > main > .sponsors > .container > .sponsors-container > img {
-    background-color: #1d1d33;
-}
-
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .prev-btn,
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .next-btn {
-    background-color: #1b1b30;
-    
-}
-
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list > a:hover,
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .prev-btn:hover,
-body.dark > main > .information > .container > .slideshow-container > .pagination-container > .next-btn:hover,
-body.dark > main > .tutorial-contents > .container > .tutorial-title > .filter-container > .tutorial-list-container > li:hover,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .certificate-contents > .certificate-container > .certificate-list-container > li:hover,
-body.dark > main > .certificate-page-contents > .container > .certificate-filter-container > .certificate-dropdown-menu > li:hover,
-body.dark > .main-navbar > .container > .right-menu > .dropdown > .list > .main-navbar-list.active {
-    background-color: #1d1d33;
-} 
-
-body.dark > footer > .container {
-    border-top: .1px solid rgba(206, 212, 218, .1);
-}
-
-body.dark > .main-navbar > .container > .right-menu > .main-hamburger-container > span,
-body.dark > main > .modal-register-contents > .modal-contents > .top > .close-container > span {
-    background-color: #dbdbdb;
-}
-
-body.dark > main > .jumbotron > .container > .desc > .register-now,
-body.dark > main > .information > .container > .desc > .more-btn,
-body.dark > .btn-to-top,
-body.dark > main > .seminar-contents > .container > .events-card-container > .event-card > .event-desc > .detail-btn,
-body.dark > main > .workshop-contents > .container > .events-card-container > .event-card > .event-desc > .detail-btn,
-body.dark > main > .competition-contents > .container > .events-card-container > .event-card > .event-desc > .detail-btn,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .events-contents > .event-card > .event-desc > .detail-btn,
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field > .button-container > .button-register-event {
-    background-color: #044bd9;
-}
-
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field {
-    background-color: #0348d1;    
-}
-
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field > .button-container > .button-register-event:hover {
-    background-color: #fff;
-}
-
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field > .button-container > .button-register-event:hover,
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field > .button-container > .button-register-event:hover > .bi-person-plus-fill {
-    color: #0348d1;
-}
-
-body.dark > main > .jumbotron > .container > .desc > .register-now:hover,
-body.dark > main > .information > .container > .desc > .more-btn:hover,
-body.dark > .btn-to-top:hover,
-body.dark > main > .seminar-contents > .container > .events-card-container > .event-card > .event-desc > .detail-btn:hover,
-body.dark > main > .workshop-contents > .container > .events-card-container > .event-card > .event-desc > .detail-btn:hover,
-body.dark > main > .competition-contents > .container > .events-card-container > .event-card > .event-desc > .detail-btn:hover,
-body.dark > main > .my-profile-contents > .container > .submenu-contents > .events-contents > .event-card > .event-desc > .detail-btn:hover {
-    background-color: #0348d1;
-}
-
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field > .title,
-body.dark > main > .event-detail-contents > .container > .bottom > .event-register > .register-field > .benefit {
-    border-bottom: .1px dashed rgba(255, 255, 255, .5);
-}
-/* end of dark mode */
-
 /* body */
 body.active,
 body.active-modal {
@@ -385,9 +120,9 @@ nav > .container > .left > .button-container {
     /* border: 1px solid blue; */
 }
 
-nav > .container > .left > .button-container > .signin-button,
+nav > .container > .left > .button-container > .a-1,
 nav > .container > .left > .button-container > .register-button,
-.mobile-navbar > .container > .button-container > .signin-button,
+.mobile-navbar > .container > .button-container > .a-1,
 .mobile-navbar > .container > .button-container > .register-button {
     min-width: 80px;
     height: 35px;
@@ -400,19 +135,19 @@ nav > .container > .left > .button-container > .register-button,
     align-items: center;
 }
 
-nav > .container > .left > .button-container > .signin-button,
-.mobile-navbar > .container > .button-container > .signin-button {
+nav > .container > .left > .button-container > .a-1,
+.mobile-navbar > .container > .button-container > .a-1 {
     background-color: #fff;
     color: #001D6E;
     border: 1px solid #001D6E;
 }
 
-nav > .container > .left > .button-container > .signin-button {
+nav > .container > .left > .button-container > .a-1 {
     background-color: rgba(255, 255, 255, .5);
 }
 
-nav > .container > .left > .button-container > .signin-button:hover,
-.mobile-navbar > .container > .button-container > .signin-button:hover,
+nav > .container > .left > .button-container > .a-1:hover,
+.mobile-navbar > .container > .button-container > .a-1:hover,
 .information > .container > .slideshow-container > .pagination-container > .prev-btn:hover,
 .information > .container > .slideshow-container > .pagination-container > .next-btn:hover,
 .solicitation > .container > .create-account-button:hover {
@@ -429,7 +164,8 @@ nav > .container > .left > .button-container > .register-button,
 
 nav > .container > .left > .button-container > .register-button:hover,
 .mobile-navbar > .container > .button-container > .register-button:hover,
-.information > .container > .desc > .more-btn:hover {
+.information > .container > .desc > .more-btn:hover,
+.information > .container > .desc > .main-more-btn:hover {
     background: #082a88;
 }
 
@@ -509,7 +245,7 @@ nav > .container > .left > .hamburger-container > span,
     gap: 10px;
 }
 
-.mobile-navbar > .container > .button-container > .signin-button,
+.mobile-navbar > .container > .button-container > .a-1,
 .mobile-navbar > .container > .button-container > .register-button {
     width: 50% !important;
     text-decoration: none;
@@ -884,7 +620,8 @@ body.dark > main > .information > .container > .desc > .limit {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.information > .container > .desc > .more-btn {
+.information > .container > .desc > .more-btn,
+.information > .container > .desc > .main-more-btn {
     max-width: 150px;
     height: 35px;
     background-color: #001D6E;
@@ -1149,10 +886,7 @@ body.dark > main > .information > .container > .desc > .limit {
     position: relative;
 }
 
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4 {
+.show-password {
     width: 35px;
     height: 35px;
     border: 1px solid #ced4da;
@@ -1165,43 +899,22 @@ body.dark > main > .information > .container > .desc > .limit {
     align-items: center;
 }
 
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1:hover,
-.register-contents > .container > .register > .register-form > .password-container-register .show-password-2:hover,
-.register-contents > .container > .register > .register-form > .password-container-register .show-password-3:hover,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4:hover {
+.show-password:hover {
     background-color: #f5f5f5;
 }
 
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1 > .bi-eye-slash,
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1 > .bi-eye,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2 > .bi-eye-slash,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2 > .bi-eye,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3 > .bi-eye-slash,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3 > .bi-eye,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4 > .bi-eye-slash,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4 > .bi-eye {
+.show-password > .bi-eye-slash,
+.show-password > .bi-eye {
     color: #3d3d3d;
 }
 
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1 > .bi-eye-slash,
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1.active > .bi-eye,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2 > .bi-eye-slash,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2.active > .bi-eye,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3 > .bi-eye-slash,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3.active > .bi-eye,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4 > .bi-eye-slash,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4.active > .bi-eye {
+.show-password > .bi-eye-slash,
+.show-password.active > .bi-eye {
     display: block;
 }
 
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1.active > .bi-eye-slash,
-.signin-popup > .signin-contents > .bottom > .password-container > .show-password-1 > .bi-eye,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2.active > .bi-eye-slash,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-2 > .bi-eye,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3.active > .bi-eye-slash,
-.register-contents > .container > .register > .register-form > .password-container-register > .show-password-3 > .bi-eye,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4.active > .bi-eye-slash,
-.signin-contents-mobile > .container > .signin > .signin-form > .password-container-mobile > .show-password-4 > .bi-eye {
+.show-password.active > .bi-eye-slash,
+.show-password > .bi-eye {
     display: none;
 }
 
@@ -1230,7 +943,7 @@ body.dark > main > .information > .container > .desc > .limit {
 
 .signin-popup > .signin-contents > .bottom > .signin-button,
 .register-contents > .container > .register > .register-form > .create-account-btn,
-.signin-contents-mobile > .container > .signin > .signin-form > .signin-btn {
+.signin-contents-mobile > .container > .signin > .signin-form > .signin-button {
     width: 100%;
     height: 35px;
     background-color: #001D6E;
@@ -1247,7 +960,7 @@ body.dark > main > .information > .container > .desc > .limit {
 
 .signin-popup > .signin-contents > .bottom > .signin-button:hover,
 .register-contents > .container > .register > .register-form > .create-account-btn:hover,
-.signin-contents-mobile > .container > .signin > .signin-form > .signin-btn:hover {
+.signin-contents-mobile > .container > .signin > .signin-form > .signin-button:hover {
     background-color: #082a88;
 }
 
@@ -2530,18 +2243,18 @@ body.dark > main > .information > .container > .desc > .limit {
     align-items: center;
 }
 
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-seminar-container > .certificate-card > .certificate-image,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-workshop-container > .certificate-card > .certificate-image,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-competition-container > .certificate-card > .certificate-image {
+.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-seminar-container > .certificate-card > .certificate-page-image,
+.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-workshop-container > .certificate-card > .certificate-page-image,
+.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-competition-container > .certificate-card > .certificate-page-image {
     width: 100%;
     line-height: 0;
     cursor: pointer;
     transition: .2s;
 }
 
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-seminar-container > .certificate-card > .certificate-image:hover,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-workshop-container > .certificate-card > .certificate-image:hover,
-.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-competition-container > .certificate-card > .certificate-image:hover,
+.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-seminar-container > .certificate-card > .certificate-page-image:hover,
+.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-workshop-container > .certificate-card > .certificate-page-image:hover,
+.my-profile-contents > .container > .submenu-contents > .certificate-contents > .events-container > .profile-competition-container > .certificate-card > .certificate-page-image:hover,
 .certificate-page-contents > .container > .certificate-place > .certificate-place-seminar > .certificate-page-card > img:hover,
 .certificate-page-contents > .container > .certificate-place > .certificate-place-workshop > .certificate-page-card > img:hover,
 .certificate-page-contents > .container > .certificate-place > .certificate-place-competition > .certificate-page-card > img:hover {
