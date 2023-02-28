@@ -65,10 +65,12 @@ document.addEventListener('DOMContentLoaded', () => {
         body.classList.add('active');
     }): null;
     
-    var closeContainer = document.getElementsByClassName('close-container')[0];
-    closeContainer ? closeContainer.addEventListener('click', () => {
-        signinPopup.classList.remove('active');
-        body.classList.remove('active');
+    var closeContainer = document.querySelectorAll('.close-container');
+    closeContainer ? closeContainer.forEach(c => {
+        c.addEventListener('click', () => {
+            signinPopup.classList.remove('active');
+            body.classList.remove('active');
+        });
     }): null;
     
     var signinContent = document.getElementsByClassName('signin-contents')[0];
@@ -94,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.target !== signinContent && 
                 e.target !== signinContentTop && 
                 e.target !== signinContentTopHeading && 
-                e.target !== closeContainer &&
+                e.target.className !== 'close-container' &&
                 e.target !== signinContentBottom && 
                 e.target !== email && 
                 e.target !== pass && 
@@ -118,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.target !== signinContent && 
                 e.target !== signinContentTop && 
                 e.target !== signinContentTopHeading && 
-                e.target !== closeButton &&
+                e.target.className !== 'close-container' &&
                 e.target !== signinContentBottom && 
                 e.target !== email && 
                 e.target !== pass && 
